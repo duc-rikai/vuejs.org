@@ -4,7 +4,7 @@ type: guide
 order: 305
 ---
 
-Vue cho phép bạn định nghĩa các filter (bộ lọc) dùng để áp dụng các định dạng văn bản thường gặp. Bạn có thể sử dụng filter ở hai chỗ: **trong thẻ mustache** và **trong các biểu thức `v-bind`** (trường hợp sau này được hỗ trợ từ phiên bản 2.1.0 trở đi). Filter được đặt ở cuối một biểu thức JavaScript,  should be appended to the end of the JavaScript expression, biểu thị bằng kí hiệu `|`:
+Vue cho phép bạn định nghĩa các filter (bộ lọc) dùng để áp dụng các định dạng văn bản thường gặp. Bạn có thể sử dụng filter ở hai chỗ: **trong thẻ mustache** và **trong các biểu thức `v-bind`** (trường hợp sau này được hỗ trợ từ phiên bản 2.1.0 trở đi). Filter được đặt ở cuối một biểu thức JavaScript, biểu thị bằng kí hiệu `|`:
 
 ``` html
 <!-- trong thẻ mustache -->
